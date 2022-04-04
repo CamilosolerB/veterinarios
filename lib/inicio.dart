@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:veterinarios/cita.dart';
+import 'package:veterinarios/general.dart';
+import 'package:veterinarios/politicas.dart';
 import 'package:veterinarios/vista1.dart';
 
 class menu extends StatelessWidget {
@@ -18,18 +21,30 @@ class menu extends StatelessWidget {
           ),
           ListTile(
             title: Text("Nuestros productos y servicios"),
+            onTap: (){
+              Navigator.pop(context);
+            },
           ),
           ListTile(
             title: Text("Interes general"),
+            onTap: (){
+              Navigator.push(context, MaterialPageRoute(builder: (context)=>general()));
+            },
           ),
           ListTile(
             title: Text("Agendar cita"),
+            onTap: (){
+              Navigator.push(context, MaterialPageRoute(builder: (context)=> citas()));
+            }
           ),
           ListTile(
             title: Text("Paseadores"),
           ),
           ListTile(
             title: Text("Politicas de la compañia"),
+            onTap: (){
+              Navigator.push(context, MaterialPageRoute(builder: (context)=>politicas()));
+            },
           ),
         ],
       ),
