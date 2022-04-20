@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "6358647509",
+    "project_id": "veterinaria-d9b32",
+    "storage_bucket": "veterinaria-d9b32.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:6358647509:android:31965886361caa92ea585c",
+        "android_client_info": {
+          "package_name": "com.example.veterinarios"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "6358647509-3mb1gdb3aubsh75u6v7n7t0q35v9a945.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCR88VqFWheg_ckVguJVAgt8VebTd3vUwM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "6358647509-3mb1gdb3aubsh75u6v7n7t0q35v9a945.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -4,6 +4,7 @@ import 'package:veterinarios/login.dart';
 import 'package:veterinarios/vistainicial.dart';
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
   runApp(const MyApp());
 }
 

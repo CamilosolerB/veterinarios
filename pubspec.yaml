@@ -36,6 +36,8 @@ dependencies:
   cupertino_icons: ^1.0.2
   fluttertoast: ^8.0.9
   datetime_picker_formfield: ^0.1.8
+  firebase_core:
+  cloud_firestore:
 
 dev_dependencies:
   flutter_test:
