@@ -2,9 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:veterinarios/inicio.dart';
 import 'package:veterinarios/login.dart';
 import 'package:veterinarios/vistainicial.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:firebase_core/firebase_core.dart';
 
-void main() {
+void main(){
   WidgetsFlutterBinding.ensureInitialized();
+  Firebase.initializeApp();
   runApp(const MyApp());
 }
 

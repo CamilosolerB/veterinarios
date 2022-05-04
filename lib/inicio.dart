@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:veterinarios/cita.dart';
 import 'package:veterinarios/general.dart';
 import 'package:veterinarios/politicas.dart';
+import 'package:veterinarios/usuarios.dart';
 import 'package:veterinarios/vista1.dart';
 
 class menu extends StatelessWidget {
@@ -39,6 +40,9 @@ class menu extends StatelessWidget {
           ),
           ListTile(
             title: Text("Paseadores"),
+            onTap: (){
+              Navigator.push(context, MaterialPageRoute(builder: (context)=> usuarios()));
+            },
           ),
           ListTile(
             title: Text("Politicas de la compañia"),
