@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:veterinarios/botones.dart';
 
 class singin extends StatelessWidget {
   const singin({Key? key}) : super(key: key);
@@ -107,7 +108,8 @@ class singin extends StatelessWidget {
                   onTap: (){
                     Navigator.push(context, MaterialPageRoute(builder: (context)=> singin()));
                   },
-                )
+                ),
+                GoogleSingIn()
               ],
             ),
           ),
